@@ -201,6 +201,20 @@ img {
   display: block;
   width: calc((100% - 72px) / 4);
 }
+.icon {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.rectangle {
+  position: relative;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  width: 264px;
+  height: 112px;
+  background: #f4f4fd;
+  margin-bottom: 8px;
+}
+
 .advantages-item-title {
   font-family: inherit;
   font-weight: 500;
