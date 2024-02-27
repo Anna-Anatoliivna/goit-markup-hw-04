@@ -260,7 +260,7 @@ img {
 }
 
 .team-item-box {
-  padding: 32px 0;
+  padding: 32px 16px 32px 16px;
 }
 
 .team-list-title {
@@ -277,7 +277,30 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
+  margin-bottom: 8px;
 }
+.social-list {
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+  align-items: center;
+}
+.social-list-item {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.social-list-icon {
+  fill: none;
+  stroke: #f4f4fd;
+}
+.ellipse {
+  position: relative;
+  background: #4d5ae5;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
 /* ===============portfolio================= */
 .portfolio-section {
   padding-top: 120px;
