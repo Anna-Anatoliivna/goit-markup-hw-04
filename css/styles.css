@@ -300,7 +300,10 @@ img {
   height: 40px;
   border-radius: 50%;
 }
-
+.ellipse:hover,
+.ellipse:focus {
+  background: #404bbf;
+}
 /* ===============portfolio================= */
 .portfolio-section {
   padding-top: 120px;
@@ -337,6 +340,10 @@ img {
   padding-top: 100px;
   padding-bottom: 100px;
 }
+.box-footer {
+  display: flex;
+  gap: 120px;
+}
 .text-footer {
   font-size: 16px;
   line-height: 1.5;
@@ -353,8 +360,38 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  margin-bottom: 16px;
+  margin-bottom: 18px;
 }
 .text-white-color {
   color: #f4f4fd;
+}
+.text-media-footer {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin-bottom: 16px;
+}
+.social-list-footer {
+  display: flex;
+  gap: 16px;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 208px;
+}
+.social-list-item-footer {
+  padding: 8px;
+}
+.ellipse-footer {
+  position: relative;
+  background: #4d5ae5;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.ellipse-footer:hover,
+.ellipse-footer:focus {
+  background: #31d0aa;
 }
