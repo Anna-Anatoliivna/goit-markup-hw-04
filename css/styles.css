@@ -454,16 +454,17 @@ img {
   padding: 8px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.social-list-link {
-  width: 100%;
-  height: 100%;
-}
 .ellipse-footer {
   position: relative;
   background: #4d5ae5;
   width: 40px;
   height: 40px;
   border-radius: 50%;
+}
+
+.social-list-link-footer {
+  width: 100%;
+  height: 100%;
 }
 .ellipse-footer:hover,
 .ellipse-footer:focus {
